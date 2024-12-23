@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Configuration
-MODEL_PATH = r"\credit_card_fraud_model.pkl"
+MODEL_PATH = r"Model/credit_card_fraud_model.pkl"
 FEATURE_NAMES = ['Time', 'Amount']  # Must match model's training features
 
 class ModelManager:

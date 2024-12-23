@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - CCFD System{% endblock %}
+
+{% block content %}
+<section id="dashboard" class="dashboard-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="display-title">Welcome to the CCFD Dashboard</h1>
+            <p class="sub-text">Empowering Fraud Detection with Precision and Speed</p>
+        </div>
+        <div class="row align-items-center justify-content-center g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="stat-card">
+                    <div class="stat-icon icon-blue">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3 class="stat-number">1,234</h3>
+                    <p class="stat-title">Total Transactions</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="stat-card">
+                    <div class="stat-icon icon-red">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3 class="stat-number">12</h3>
+                    <p class="stat-title">Fraud Detected</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="stat-card">
+                    <div class="stat-icon icon-green">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="stat-number">99.2%</h3>
+                    <p class="stat-title">System Accuracy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

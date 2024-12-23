@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Blockchain Explorer - CCFD System{% endblock %}
+
+{% block content %}
+<section id="blockchain" class="mb-5">
+    <h2 class="section-title">Blockchain Explorer</h2>
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Block #</th>
+                            <th>Timestamp</th>
+                            <th>Transactions</th>
+                            <th>Hash</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1001</td>
+                            <td>2024-02-20 10:30:15</td>
+                            <td>5</td>
+                            <td>0x8f4a...</td>
+                            <td><span class="badge bg-success">Verified</span></td>
+                        </tr>
+                        <tr>
+                            <td>1000</td>
+                            <td>2024-02-20 10:25:00</td>
+                            <td>3</td>
+                            <td>0x7e3b...</td>
+                            <td><span class="badge bg-success">Verified</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

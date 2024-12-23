@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Home - CCFD System{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<header class="hero-section text-center py-5">
+    <div class="container">
+        <h1 class="display-title">Welcome to the CCFD System</h1>
+        <p class="sub-text">A cutting-edge system leveraging Machine Learning and Blockchain to detect credit card fraud in real-time.</p>
+        <div class="hero-buttons mt-4">
+            <a href="/dashboard" class="btn btn-primary btn-lg">DASHBOARD</a>
+            <a href="/blockchain" class="btn btn-secondary btn-lg">BLOCKCHAIN</a>
+        </div>
+    </div>
+</header>
+
+<!-- Feature Highlights -->
+<section class="features-section text-center py-5 ">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="feature-card shadow-sm p-4 bg-white rounded">
+                    <h5>Machine Learning Insights</h5>
+                    <p>Utilizing ML to analyze transaction patterns and flag fraudulent ones.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card shadow-sm p-4 bg-white rounded">
+                    <h5>Blockchain Security</h5>
+                    <p>Integrate blockchain tech for transparent and secure data tracking.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card shadow-sm p-4 bg-white rounded">
+                    <h5>Real-Time Detection</h5>
+                    <p>Detect anomalies in transaction data as they happen to prevent fraud.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="cta-section text-center py-5">
+    <div class="container">
+        <h4 class="display-title">Ready to Get Started?</h4>
+        <p class="sub-text">Dive into real-time fraud detection technology powered by ML and blockchain.</p>
+        <a href="/dashboard" class="btn btn-success btn-lg mt-3">Access Dashboard Now</a>
+    </div>
+</section>
+{% endblock %}

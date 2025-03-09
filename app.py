@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import pandas as pd
-import numpy as np
+ 
 import joblib
 from pathlib import Path
 import logging

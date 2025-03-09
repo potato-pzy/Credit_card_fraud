@@ -4,5 +4,5 @@ joblib==1.2.0
 scikit-learn==1.6.0
 Flask==3.0.2
 Werkzeug==3.0.1
-numpy==1.24.0  # or whatever numpy version works best for your app
+#numpy==1.24.0  # or whatever numpy version works best for your app
 
